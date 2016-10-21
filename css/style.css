@@ -351,6 +351,11 @@ label {
     .section.image h3 { color: rgba(255,255,255, .7); }
 
   /* WELCOME SECTION */
+  @font-face {
+  	font-family: celticFont;
+  	src: url(../fonts/Celtic.ttf);
+  }
+  
   .section.welcome {
     padding-top: 0;
   }
@@ -371,7 +376,13 @@ label {
     text-align: center;
     font-size: 50px;
     color: #fff;
+    font-family:celticFont;
   }
+  
+  #sublogo {
+  	font-family:celticFont;
+  }
+  
   .welcome .scroll-down i {
     display: block;
     font-size: 40px;
