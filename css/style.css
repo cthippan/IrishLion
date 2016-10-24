@@ -369,6 +369,7 @@ label {
   }
     .section.welcome .content {
       text-align: center;
+      padding-top: 150px;
     }
     .section.welcome a { color: rgba(255,255,255,.8); }
     .section.welcome a:hover { color: #fff; }
@@ -487,14 +488,17 @@ label {
     background: url("../img/office.jpg") fixed no-repeat;
     background-size: cover;
   }
+  
   #services .service-icon {
     text-align: center;
     color: #fff;
   }
+  
     #services .service-icon i:hover  {
       background-color: #003303;
       color: #fff;
     }
+    
     #services .service-icon i {
       margin: 0 auto;
       color: rgba(255,255,255,.7);
@@ -513,6 +517,7 @@ label {
       -webkit-transition: background-color .3s;
       transition: background-color .3s;
     }
+    
     #services .service-icon span {
       display: block;
       margin-top: 20px;
@@ -707,22 +712,26 @@ label {
   .pricing span {
     margin-right: 20px;
   }
+  
   .pricing .wrapper {
     padding: 20px;
     background-color: #ccc;
     -webkit-transition: .5s;
     transition: .5s;
   }
+  
     .pricing .wrapper:hover {
       margin-top: -10px;
-      background-color: #f4d432;
-      box-shadow: 0 10px 0 0 #e8c61a;
+      background-color: #003303;
+      box-shadow: 0 10px 0 0 #004d04;
     }
+    
     .pricing .wrapper:hover h3 { color: #fff; }
     .pricing .wrapper:hover span.price {
        background-color: rgba(255,255,255,.8);
        border-color: transparent;
     }
+    
     .pricing .wrapper:hover td { color: #fff; }
     .pricing .wrapper:hover a.btn { background-color: #666; color: #fff; }
     .pricing .wrapper a.btn:hover { border-color: transparent; background-color: #888; }
@@ -730,10 +739,12 @@ label {
     -webkit-transition: .25s;
     transition: .25s;
   }
+  
   .pricing h3 {
     color: #555;
     font-size: 28px;
   }
+  
   .pricing span.price {
     display: block;
     color: #555;
@@ -748,6 +759,7 @@ label {
     border: 2px solid rgba(255,255,255,.8);
     margin: 0 auto;
   }
+  
     .pricing span.price i {
       position: relative;
       top: 4px;
