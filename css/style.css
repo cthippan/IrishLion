@@ -335,7 +335,7 @@ label {
     background-color: #eee;
   }
     .section.white h1 {
-      color: #f4c532;
+      color: #4D1D12;
     }
     .section.white a.btn {
       color: #777;
@@ -922,7 +922,7 @@ label {
   color: #eee;
   overflow: hidden;
   position: relative;
-  background-color: #333;
+  background-color: #4D1D12;
   z-index: 1;
 }
   .footer h3 {
