@@ -9,6 +9,11 @@ html, body {
   height: 100%;
 }
 
+.logo {
+  background-color:rgba(255, 255, 255, 0.2);
+
+}
+
 .background {
   filter: blur(5px);
   opacity: .5;
@@ -51,7 +56,7 @@ h1 {
   h1:hover {
     border-color: #72a329;
   }
-  
+
 h3 {
   color: rgba(255,255,255, .7);
   font-size: 14px;
@@ -108,17 +113,17 @@ a:hover {
     border-color: #fff;
     color: #fff;
   }
-  
+
   .btn:active {
     top: 2px;
   }
-  
+
   .btn.active {
     background-color: rgba(0,0,0,.1);
     border-color: #fff;
     color: #fff;
   }
-  
+
   .btn:focus {
     color: #fff;
     outline: none;
@@ -363,7 +368,7 @@ label {
   	font-family: celticFont;
   	src: url(../fonts/Celtic.ttf);
   }
-  
+
   .section.welcome {
     padding-top: 0;
   }
@@ -387,7 +392,7 @@ label {
     color: #fff;
     font-family:celticFont;
   }
-  
+
   .welcome .scroll-down i {
     display: block;
     font-size: 40px;
@@ -488,17 +493,17 @@ label {
     background: url("../img/office.jpg") fixed no-repeat;
     background-size: cover;
   }
-  
+
   #services .service-icon {
     text-align: center;
     color: #fff;
   }
-  
+
     #services .service-icon i:hover  {
       background-color: #003303;
       color: #fff;
     }
-    
+
     #services .service-icon i {
       margin: 0 auto;
       color: rgba(255,255,255,.7);
@@ -517,7 +522,7 @@ label {
       -webkit-transition: background-color .3s;
       transition: background-color .3s;
     }
-    
+
     #services .service-icon span {
       display: block;
       margin-top: 20px;
@@ -712,26 +717,26 @@ label {
   .pricing span {
     margin-right: 20px;
   }
-  
+
   .pricing .wrapper {
     padding: 20px;
     background-color: #ccc;
     -webkit-transition: .5s;
     transition: .5s;
   }
-  
+
     .pricing .wrapper:hover {
       margin-top: -10px;
       background-color: #003303;
       box-shadow: 0 10px 0 0 #004d04;
     }
-    
+
     .pricing .wrapper:hover h3 { color: #fff; }
     .pricing .wrapper:hover span.price {
        background-color: rgba(255,255,255,.8);
        border-color: transparent;
     }
-    
+
     .pricing .wrapper:hover td { color: #fff; }
     .pricing .wrapper:hover a.btn { background-color: #666; color: #fff; }
     .pricing .wrapper a.btn:hover { border-color: transparent; background-color: #888; }
@@ -739,12 +744,12 @@ label {
     -webkit-transition: .25s;
     transition: .25s;
   }
-  
+
   .pricing h3 {
     color: #555;
     font-size: 28px;
   }
-  
+
   .pricing span.price {
     display: block;
     color: #555;
@@ -759,7 +764,7 @@ label {
     border: 2px solid rgba(255,255,255,.8);
     margin: 0 auto;
   }
-  
+
     .pricing span.price i {
       position: relative;
       top: 4px;
@@ -799,47 +804,10 @@ label {
 }
 
 /*  TEAM
- *    stylings for about us section
+ *    stylings for about us section/social media icons
  *
  *
  */
-
-.team { text-align: center; }
-  .team h2 {
-    color: #444;
-    margin: 0;
-    line-height: 40px;
-  }
-  .team h3 { line-height: 18px; }
-  .team .btn {
-    margin: 5px 10px 0 0;
-  }
-  .team p {
-    color: #444;
-    margin-bottom: 15px;
-    line-height: 26px;
-  }
-
-  .portrait {
-    position: relative;
-    margin: 0 auto 15px auto;
-    width: 250px;
-    height: 250px;
-
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-
-    overflow: hidden;
-    border: 4px solid rgba(255,255,255,.4);
-
-    -webkit-transition: border-color .5s;
-    transition: border-color .5s;
-  }
-    .team .row [class*="col-"]:hover .portrait { border-color: #fff; }
-    .portrait img {
-      width: 100%;
-    }
     .social-media {
       margin-bottom: 20px;
       color: #fff;
@@ -866,6 +834,174 @@ label {
       .social-media a:hover {
         color: #fff;
         border-color: #fff;
+      }
+
+      .timeline {
+        list-style: none;
+        padding: 0;
+        position: relative;
+      }
+      .timeline:before {
+        top: 0;
+        bottom: 0;
+        position: absolute;
+        content: "";
+        width: 2px;
+        background-color: #f1f1f1;
+        left: 40px;
+        margin-left: -1.5px;
+      }
+      .timeline > li {
+        margin-bottom: 50px;
+        position: relative;
+        min-height: 50px;
+      }
+      .timeline > li:before,
+      .timeline > li:after {
+        content: " ";
+        display: table;
+      }
+      .timeline > li:after {
+        clear: both;
+      }
+      .timeline > li .timeline-panel {
+        width: 100%;
+        float: right;
+        padding: 0 20px 0 100px;
+        position: relative;
+        text-align: left;
+      }
+      .timeline > li .timeline-panel:before {
+        border-left-width: 0;
+        border-right-width: 15px;
+        left: -15px;
+        right: auto;
+      }
+      .timeline > li .timeline-panel:after {
+        border-left-width: 0;
+        border-right-width: 14px;
+        left: -14px;
+        right: auto;
+      }
+      .timeline > li .timeline-image {
+        left: 0;
+        margin-left: 0;
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        z-index: 100;
+        background-color: #fed136;
+        color: white;
+        border-radius: 100%;
+        border: 7px solid #f1f1f1;
+        text-align: center;
+      }
+      .timeline > li .timeline-image h4 {
+        font-size: 10px;
+        margin-top: 12px;
+        line-height: 14px;
+      }
+      .timeline > li.timeline-inverted > .timeline-panel {
+        float: right;
+        text-align: left;
+        padding: 0 20px 0 100px;
+      }
+      .timeline > li.timeline-inverted > .timeline-panel:before {
+        border-left-width: 0;
+        border-right-width: 15px;
+        left: -15px;
+        right: auto;
+      }
+      .timeline > li.timeline-inverted > .timeline-panel:after {
+        border-left-width: 0;
+        border-right-width: 14px;
+        left: -14px;
+        right: auto;
+      }
+      .timeline > li:last-child {
+        margin-bottom: 0;
+      }
+      .timeline .timeline-heading h4 {
+        margin-top: 0;
+        color: inherit;
+      }
+      .timeline .timeline-heading h4.subheading {
+        text-transform: none;
+      }
+      .timeline .timeline-body > p,
+      .timeline .timeline-body > ul {
+        margin-bottom: 0;
+      }
+      @media (min-width: 768px) {
+        .timeline:before {
+          left: 50%;
+        }
+        .timeline > li {
+          margin-bottom: 100px;
+          min-height: 100px;
+        }
+        .timeline > li .timeline-panel {
+          width: 41%;
+          float: left;
+          padding: 0 20px 20px 30px;
+          text-align: right;
+        }
+        .timeline > li .timeline-image {
+          width: 100px;
+          height: 100px;
+          left: 50%;
+          margin-left: -50px;
+        }
+        .timeline > li .timeline-image h4 {
+          font-size: 13px;
+          margin-top: 16px;
+          line-height: 18px;
+        }
+        .timeline > li.timeline-inverted > .timeline-panel {
+          float: right;
+          text-align: left;
+          padding: 0 30px 20px 20px;
+        }
+      }
+      @media (min-width: 992px) {
+        .timeline > li {
+          min-height: 150px;
+        }
+        .timeline > li .timeline-panel {
+          padding: 0 20px 20px;
+        }
+        .timeline > li .timeline-image {
+          width: 150px;
+          height: 150px;
+          margin-left: -75px;
+        }
+        .timeline > li .timeline-image h4 {
+          font-size: 18px;
+          margin-top: 30px;
+          line-height: 26px;
+        }
+        .timeline > li.timeline-inverted > .timeline-panel {
+          padding: 0 20px 20px;
+        }
+      }
+      @media (min-width: 1200px) {
+        .timeline > li {
+          min-height: 170px;
+        }
+        .timeline > li .timeline-panel {
+          padding: 0 20px 20px 100px;
+        }
+        .timeline > li .timeline-image {
+          width: 170px;
+          height: 170px;
+          margin-left: -85px;
+        }
+        .timeline > li .timeline-image h4 {
+          margin-top: 40px;
+        }
+        .timeline > li.timeline-inverted > .timeline-panel {
+          padding: 0 100px 20px 20px;
+        }
       }
 
 
