@@ -1,21 +1,6 @@
-/*
- * Made by WebDesignCrowd
- * http://webdesigncrowd.com
- *
- */
-
 html, body {
   font-family: 'Raleway', Arial, Helvetica, sans-serif;
   height: 100%;
-}
-
-/*.logo {
-  background-color:rgba(255, 255, 255, 0.2);
-}
-*/
-
-.background {
-  filter: blur(5px);
 }
 
 .clearfix {
@@ -92,13 +77,11 @@ a:hover {
   font-size: 14px;
   line-height: 20px;
   padding: 10px;
-  margin: 0 10px 10px 10px;
   text-shadow: none;
   box-shadow: none;
-  background: none;
   border: 2px solid rgba(255,255,255,.6);
   color: rgba(255,255,255,.8);
-  background-color: transparent;
+  background-color: 003303;
 
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -129,72 +112,18 @@ a:hover {
   }
 
 /* Basic Form Styles */
-input,
-textarea,
-input.form-control,
-textarea.form-control,
-input.form-control:focus,
-textarea.form-control:focus {
-  outline: none;
-  border-radius: 0;
-  box-shadow: none;
-  border: none;
-  border-color: #d0d0d0;
-}
 
-form .btn {
-  margin-left: 0;
-  margin-right: 0;
-}
-
-label {
-  font-weight: normal;
-}
-
-.form-control:focus {
-  box-shadow: none;
-  border-color: #777;
-}
 
 /* Empty space for empty columns */
 .row .empty[class^='col-md-'] {
   margin-bottom: 0;
 }
-
-/* Basic Modal Styles */
-.modal {
+.row {
+  margin-left: 0;
+  margin-right: 0;
 }
-  .modal .wrapper {
-    margin: 3% auto;
-    width: auto;
-    max-width: 70%;
-    max-height: 85%;
-  }
-  .modal img {
-    margin: 0 auto;
-    max-width: 100%;
-    max-height: 100%;
-    box-shadow: 0 15px 30px rgba(0,0,0,.5);
-  }
-  .modal h4 {
-    margin-top: 10px;
-    font-size: 14px;
-    text-align: center;
-    color: #fff;
-  }
-  .modal a {
-    color: #fff;
-  }
-  /* Scrollbar bugfix */
-  body.modal-open, .modal-open .navbar-fixed-top {
-    margin-right: 0;
-  }
 
-@media (max-width: 767px) {
-  .modal {
-    overflow-y: hidden;
-  }
-}
+
 
 /*  NAVBAR
  *    stylings for fixed navbar
@@ -328,7 +257,6 @@ label {
   min-height: 100%;
   z-index: 1;
   padding-top: 105px;
-  background-color: #4D1D12;
   transition: background-color 1s;
   -webkit-transition: background-color 1s;
 }
@@ -1003,22 +931,6 @@ label {
         }
       }
 
-
-  /* Portrait Responsive Sizes */
-  @media (max-width: 979px) {
-    .portrait {
-      width: 200px;
-      height: 200px;
-    }
-  }
-  @media (min-width: 768px) and (max-width: 979px) {
-    .team .social-media a {
-      height: 30px;
-      width: 30px;
-      font-size: 15px;
-      padding-top: 3px;
-    }
-  }
 
 /*  CONTACT
  *    stylings for contact

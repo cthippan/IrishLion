@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 
     <title>Irish Lion</title>
-
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
@@ -17,7 +17,6 @@
 
     <!-- Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-
   </head>
 
   <body data-spy="scroll" data-target="#navbar" data-offset="70">
@@ -261,7 +260,7 @@
 
           <div class="pricing">
             <div class="row">
-              <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="wrapper">
                   <h3 class="text-center">Celtic Room</h3>
                   <table class="table">
@@ -272,7 +271,12 @@
                       <tr><td>(Upstairs Level) 280 sq. ft.</td></tr>
                       <tr><td>Capacity 30</td></tr>
                       <tr><td>Free Email Support</td></tr>
-                      <tr><td><a class="btn" href="#">RESERVE NOW</a></td></tr>
+                      <tr><td>  <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                          Launch demo modal
+                        </button>
+
+                        </td></tr>
                     </tbody>
                   </table>
                 </div>
@@ -284,6 +288,125 @@
       </div>
     </div><!-- /.container -->
 
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <center><h4 class="modal-title" id="myModalLabel">Reservation Inquiry</h4></center>
+          </div>
+          <div class="modal-body">
+            <!--input-->
+        <p>For immediate assistance, please telephone The Irish Lion office at 812-876-6456, Monday-Friday, 9 a.m.-5 p.m. EST. </p>
+        <div class="container">
+  <form>
+    <div class="form-group">
+      <label for="select">Select Event Space</label>
+      <select id="select" class="form-control">
+        <option>The Glen</option>
+          <option>Celtic Room</option>
+            <option>Upstairs Banquet Room (Includes the Celtic Room)</option>
+      </select>
+    </div>
+    <div class="form-group row">
+      <label for="example-text-input" class="col-xs-2 col-form-label">Event Organizer</label>
+      <div class="col-xs-10">
+        <input class="form-control" type="text" value="Event Organizer" id="example-text-input">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="example-text-input" class="col-xs-2 col-form-label">Host Organization</label>
+      <div class="col-xs-10">
+        <input class="form-control" type="text" value="Host Organization" id="example-text-input">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+      </div>
+    </div>
+    <div class="form-group row">
+  <label for="example-tel-input" class="col-xs-2 col-form-label">Telephone</label>
+  <div class="col-xs-10">
+    <input type="text" id="UserMobile" maxlength="14" data-fv-numeric="true" data-fv-numeric-message="Please enter valid phone numbers" data-fv-phone-country11="IN" required="required" data-fv-notempty-message="This field cannot be left blank." placeholder="Mobile No. " class="form-control" name="data[User][mobile]" data-fv-field="data[User][mobile]">
+  </div>
+</div>
+<div class="form-group row">
+  <label for="example-text-input" class="col-xs-2 col-form-label">Event Type</label>
+  <div class="col-xs-10">
+    <input class="form-control" type="text" value="Event Type" id="example-text-input">
+  </div>
+</div>
+<div class="form-group row">
+  <label for="example-datetime-local-input" class="col-xs-2 col-form-label">Date and time</label>
+  <div class="col-xs-10">
+    <input class="form-control" type="datetime-local" value="2011-08-19T13:45:00" id="example-datetime-local-input">
+  </div>
+</div>
+<div class="form-group row">
+  <label for="example-number-input" class="col-xs-2 col-form-label">Number of Attendees</label>
+  <div class="col-xs-10">
+    <input class="form-control" type="number" value="2" id="example-number-input">
+  </div>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input class="form-check-input" type="checkbox" value="">
+    Food
+  </label>
+</div>
+<div class="form-check disabled">
+  <label class="form-check-label">
+    <input class="form-check-input" type="checkbox" value="">
+    Beverage
+  </label>
+</div>
+<div class="form-check disabled">
+  <label class="form-check-label">
+    <input class="form-check-input" type="checkbox" value="">
+    Audio
+  </label>
+</div>
+<div class="form-check disabled">
+  <label class="form-check-label">
+    <input class="form-check-input" type="checkbox" value="">
+    Visual
+  </label>
+</div>
+<div class="form-group">
+  <label for="exampleTextarea">Comments:</label>
+  <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+</div>
+    <fieldset class="form-group row">
+      <div class="col-sm-10">
+        <div class="form-check">
+          <label class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input">
+            <span class="custom-control-indicator"></span>
+            <span class="custom-control-description">I understand that the submission of this inquiry form does not constitute as a confirmed booking. Room/area, date and setup type are subject to availability.
+</span>
+          </label>
+        </div>
+      </div>
+    </fieldset>
+    <!--Recaptcha Needed Here-->
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+        <!--input end-->
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Clients and Testimonials Section -->
     <!--  Image background parallax -->
@@ -359,7 +482,7 @@
       </div>
 
       <p class="copyright">
-        &copy; Made by <a href="http://webdesigncrowd.com">WebDesignCrowd</a>
+        &copy; Irish Lion 2016
       </p>
     </div>
 
