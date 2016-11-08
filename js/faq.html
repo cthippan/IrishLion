@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+
+    <!-- Raleway Font -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+
+    <!-- Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+<title>FREQUENTLY ASKED QUESTIONS</title>
+<style >html, body {
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  height: 100%;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+</style>
+</head>
+<body>
+ <div data-role="collapsible">
+    <h1>Parking</h1>
+    <p>Please refer to City of Bloomington Parking  for  up-to-date parking information. </p>
+    <p> Parking app at Parkmobile.com</p>
+
+ 
+
+    <p>On-Street Metered Parking, Monday-Saturday. 9 a.m.-9 p.m. </p>
+
+    <p>25 cents per 15 minutes. Coin/Debit/Credit. </p>
+
+    <p>On-Street Parking is FREE on Sundays and Holidays. </p>
+
+    <p>Free on Saturdays during the month of December.</p>
+  </div>
+  <div data-role="collapsible">
+<h2>Online Reservations</h2>
+<p>We do not take online reservations. </p>
+
+   <p> Reservations for parties under 10  tel. 812-336-9076.</p>
+   <p> Private parties & reservations for groups of 10 or more  Inquiry Booking Form</p>
+</div>
+<div data-role="collapsible">
+  <h2>Trademarked</h2><p> The Irish Lion, Logo, Blarney Puffballs</p>
+</div>
+<div data-role="collapsible"><h2>Directions</h2>
+<p>From the North:</p>
+<ul>
+
+
+    <li>Travel South on Hwy 37 to Bloomington.</li>
+
+    <li>Take the 46 East Bloomington Exit.</li>
+
+    <li>Turn Right (South) onto College Avenue.</li>
+
+    <li>At the Courthouse Square Turn Right onto West Kirkwood Avenue (5th Street).</li>
+
+    <li>The Irish Lion is a 1/2 block west of the Courthouse Square on the right. </li>
+</ul>
+﻿<p>From the South:</p>
+<ul>
+  
+
+   <li> Travel North on Hwy 37 to the Bloomington East 3rd Street Exit.</li>
+
+    <li>Turn Right (East) onto Third Street. East Third will flow into/become West Kirkwood/5th Street.</li>
+
+    <li>Continue East on Kirkwood, over the B-Line Trail (Morton Avenue).</li>
+
+    <li>The Irish Lion is on the lefthand side 1/2 a block before the Courthouse Square.</li>
+
+﻿</ul>
+
+ <p> From the East:</p>
+<ul>
+
+
+  <li>  Travel West on Hwy 46 to Bloomington.</li>
+
+    <li>Continue on Hwy 46 which becomes, East 3rd Street at the College Mall Intersection.</li>
+
+   <li> Follow East Third Street through the IU campus to downtown.</li>
+
+    <li>Turn right (North) onto Walnut Street staying in the far left lane.</li>
+
+    <li>At the Courthouse Square 5th Street/Kirkwood Avenue turn left, traveling west.</li>
+
+    <li>The Irish Lion is a ½ block west of the Courthouse Square, on the right.</li>
+</ul>
+ <p>From the West:</p>
+<ul>
+
+
+  <li>   From West Hwy 45 or West Hwy 48: turn left (North) onto Hwy 37 and  follow directions above for "From the South"
+
+<li>    Travel East on Hwy 46 to Bloomington.</li>
+
+    <li> Take the 46 East-Bloomington Exit.</li>
+
+    <li> Turn Right (South) onto College Avenue.</li>
+
+    <li> At the Courthouse Square Turn Right onto West Kirkwood Avenue (5th Street).</li>
+
+    <li> The Irish Lion is a 1/2 block west of the Courthouse Square on your right. </li>
+    </ul>
+</div>
+<div id="map" style="width:400px;height:400px;background:yellow" class="collapsible"><h2>MAP</h2></div>
+
+<script>
+function myMap() {
+    var mapOptions = {
+        center: new google.maps.LatLng(39.166881, -86.535552),
+        zoom: 10,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    }
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+
+
+</body>
+</html>
