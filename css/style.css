@@ -3,7 +3,6 @@ html, body {
   height: 100%;
 }
 
-<<<<<<< HEAD
 /*.logo {
   background-color:rgba(255, 255, 255, 0.2);
 }
@@ -11,12 +10,7 @@ html, body {
 span:hover + div {
     display: block;
 }
-.background {
-  filter: blur(5px);
-}
 
-=======
->>>>>>> 4df4a23a0abaa42ff4aa1a87576608879893eebb
 .clearfix {
   clear: both;
 }
@@ -126,7 +120,7 @@ a:hover {
   }
 
 /* Basic Form Styles */
-<<<<<<< HEAD
+
 input,
 textarea,
 input.form-control,
@@ -140,9 +134,6 @@ textarea.form-control:focus {
   background-color: white;
   border-color: #d0d0d0;
 }
-=======
->>>>>>> 4df4a23a0abaa42ff4aa1a87576608879893eebb
-
 
 /* Empty space for empty columns */
 .row .empty[class^='col-md-'] {
@@ -321,10 +312,10 @@ textarea.form-control:focus {
     .section.image h3 { color: rgba(255,255,255, .7); }
 
   /* WELCOME SECTION */
-  @font-face {
+/*  @font-face {
   	font-family: celticFont;
   	src: url(../fonts/Celtic.ttf);
-  }
+  }*/
 
   .section.welcome {
     padding-top: 0;
