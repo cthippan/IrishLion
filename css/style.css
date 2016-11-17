@@ -7,6 +7,17 @@ html, body {
   background-color:rgba(255, 255, 255, 0.2);
 }
 */
+/*tabs-menu*/
+.tab-content {
+    width: 660px;
+    padding: 20px;
+    display: none;
+}
+
+#tab-1 {
+ display: block;   
+}
+
 span:hover + div {
     display: block;
 }
