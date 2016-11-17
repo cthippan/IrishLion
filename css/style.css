@@ -1,5 +1,5 @@
 html, body {
-  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  font-family: "Palatino Linotype", "Book Antiqua", "Palatino", "serif";
   height: 100%;
 }
 
@@ -62,9 +62,6 @@ hr {
   margin: 10px 0;
 }
 
-a {
-  color: #ffde36;
-}
 a:hover {
   color: #003303;
   text-decoration: none;
@@ -152,7 +149,7 @@ textarea.form-control:focus {
  */
 
 .navbar {
-  background-color: whitesmoke;
+  background-color: #000000;
   border: none;
   top: -100px;
 
@@ -185,13 +182,10 @@ textarea.form-control:focus {
     font-size: 30px;
     line-height: 70px;
     font-weight: normal;
-    color: #003303;
     padding: 0 30px 0 0;
     -webkit-transition: .4s;
     transition: .4s;
   }
-    .navbar a.navbar-brand span.glyphicon { top: 4px; font-size: 28px; }
-    .navbar a.navbar-brand:hover, .navbar a.navbar-brand:focus  { color: #003303; }
 
   /* Smaller device menu styles */
   .navbar .navbar-toggle {
@@ -231,10 +225,6 @@ textarea.form-control:focus {
     transition: background-color .2s;
     -webkit-transition: background-color .2s;
   }
-    .navbar .navbar-nav li a:hover {
-      color: #fff;
-      background-color: #003303;
-    }
     .navbar .navbar-nav li.dropdown.open a.dropdown-toggle {
       background-color: #bbb;
     }
@@ -249,10 +239,6 @@ textarea.form-control:focus {
         .navbar .navbar-collapse.in ul.dropdown-menu li a:hover {
           color: #ccc;
         }
-  .navbar .navbar-nav li.active a,
-  .navbar .navbar-nav li.active a:hover {
-    background-color: #003303;
-  }
 
   @media (max-width: 992px) {
     .navbar .navbar-nav li a {
@@ -325,7 +311,9 @@ textarea.form-control:focus {
     }
     .section.welcome a { color: rgba(255,255,255,.8); }
     .section.welcome a:hover { color: #fff; }
+
   img.background {
+    -webkit-filter: grayscale(20%);
     width: auto;
     min-width: 100%;
     min-height: 100%;
@@ -768,7 +756,7 @@ textarea.form-control:focus {
         width: 40px;
         font-size: 20px;
         margin: 0 5px;
-        padding-top: 4px;
+        padding-top: 6px;
         color: rgba(255,255,255,.7);
 
         -webkit-border-radius: 50%;
