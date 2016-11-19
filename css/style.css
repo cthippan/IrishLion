@@ -3,10 +3,15 @@ html, body {
   height: 100%;
 }
 
-/*.logo {
-  background-color:rgba(255, 255, 255, 0.2);
-}
-*/
+#front{
+   color: #ffffff;
+   width: 20%;
+   text-align: center;
+   margin: 0 auto;
+   margin-top: 13%;
+ }
+
+
 /*tabs-menu*/
 .tab-content {
     width: 660px;
@@ -15,7 +20,7 @@ html, body {
 }
 
 #tab-1 {
- display: block;   
+ display: block;
 }
 
 span:hover + div {
@@ -336,8 +341,8 @@ textarea.form-control:focus {
     display: block;
     text-align: center;
     font-size: 50px;
-    /*color: #fff;*/
-    font-family:celticFont;
+    color: #ffffcc;
+    font-family: "Baskerville", "Palatino Linotype", "Book Antiqua", "Palatino", "serif";
   }
 
   .welcome .scroll-down i {
