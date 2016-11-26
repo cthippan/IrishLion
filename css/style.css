@@ -1,6 +1,7 @@
 html, body {
   font-family: "Palatino Linotype", "Book Antiqua", "Palatino", "serif";
   height: 100%;
+  background-color: black;
 }
 
 #front{
@@ -8,9 +9,15 @@ html, body {
    width: 20%;
    text-align: center;
    margin: 0 auto;
-   margin-top: 13%;
+   margin-top: 5.5%;
  }
 
+#home {
+  background-image: url('../img/irish_lion_historic-darker.jpg');
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
+}
 
 /*tabs-menu*/
 .tab-content {
@@ -164,11 +171,28 @@ textarea.form-control:focus {
  *
  *
  */
+.navbar-right {
+  display: inline-block;
+  float:right;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.address {
+  margin-top: 5rem;
+  font-size: 22px;
+  color: #ffffcc;
+}
 
 .navbar {
   background-color: #000000;
   border: none;
-  top: -100px;
 
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -196,7 +220,8 @@ textarea.form-control:focus {
     font-size: 15px;
   }
   .navbar a.navbar-brand {
-    font-size: 30px;
+    max-width: 400px;
+    font-size: 16px;
     line-height: 70px;
     font-weight: normal;
     padding: 0 30px 0 0;
@@ -224,10 +249,7 @@ textarea.form-control:focus {
       .navbar .navbar-toggle:hover span.icon-bar {
         background-color: #444;
       }
-  .navbar .navbar-collapse {
-    border-color: #999;
-    max-height: 400px;
-  }
+
   .navbar .navbar-nav li a {
     margin: 20px 5px;
     color: #777;
@@ -264,9 +286,7 @@ textarea.form-control:focus {
     .navbar a.navbar-brand {
       padding-right: 5px;
     }
-    .navbar .navbar-collapse.collapse {
-      display: none;
-    }
+
   }
 
 /*  SECTION
@@ -350,6 +370,7 @@ textarea.form-control:focus {
     font-size: 40px;
     font-weight: normal;
     margin-top: 20px;
+    margin-bottom: 20px;
     color: rgba(255,255,255,.9);
   }
   .welcome span.glyphicon {

@@ -6,15 +6,6 @@
  
 (function($){
 	$(function(){
-	
-	  // Fixed header animates in after scrolling past welcome
-	  $('#navbar').affix({
-        offset: {
-          top: function () {
-              return (this.top = $('.section.welcome').height() - 70)
-            }
-        }
-      });
     
     // MixItUp Grid
     $(function(){
