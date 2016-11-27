@@ -21,7 +21,26 @@ html, body {
   background-attachment: fixed;
 }
 
+/*menu carousel*/
+#mycarousel h3 {
+  display: inline-block;
+  padding: 10px;
+  background: #B9121B;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#mycarousel .carousel-inner {
+  height: 400px;
+}
+
 /*tabs-menu*/
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .tab-content {
     width: 660px;
     padding: 20px;
@@ -470,9 +489,7 @@ textarea.form-control:focus {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=.4)";
   	filter: alpha(opacity=.4);
   	opacity: .4;
-    -webkit-filter: grayscale(100%);
-
-    background: url("../img/office.jpg") fixed no-repeat;
+    background: url("../img/menuLion.jpg") fixed no-repeat;
     background-size: cover;
   }
 
