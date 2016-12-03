@@ -325,7 +325,7 @@ textarea {
 }
 
 a {
-  color: #428bca;
+  color: #0ff9e5;
   text-decoration: none;
 }
 
@@ -5601,10 +5601,11 @@ body.modal-open,
 }
 
 .modal {
+  width: 100%; /* Full width */
+    height: 100%; /* Full height */
   position: fixed;
   top: 0;
-  right: 0;
-  bottom: 0;
+  
   left: 0;
   z-index: 1040;
   display: none;
@@ -5641,10 +5642,12 @@ body.modal-open,
 
 .modal-content {
   position: relative;
+  padding: 0;
   background-color: #ffffff;
   border: 1px solid #999999;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 6px;
+  width: 100%;
   outline: none;
   -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
           box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
@@ -5735,7 +5738,7 @@ body.modal-open,
   .modal-dialog {
     right: auto;
     left: 50%;
-    width: 600px;
+    width: 90%;
     padding-top: 30px;
     padding-bottom: 30px;
   }

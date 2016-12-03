@@ -1,4 +1,4 @@
-html, body {
+formformhtml, body {
   font-family: "Palatino Linotype", "Book Antiqua", "Palatino", "serif";
   height: 100%;
   background-color: black;
@@ -496,9 +496,10 @@ textarea.form-control:focus {
     color: #fff;
   }
 
+    
     #services .service-icon i:hover  {
-      background-color: #003303;
-      color: #fff;
+      background-color: #d7ba84;
+      color: #1e1d1d;
     }
 
     #services .service-icon i {
