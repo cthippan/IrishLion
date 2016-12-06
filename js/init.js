@@ -7,7 +7,7 @@
 (function($){
 	$(function(){
         var $item = $('.carousel .item');
-        var $wHeight = $(window).height();
+        var $wHeight = $(window).height() *.8;
         $item.eq(0).addClass('active');
         $item.height($wHeight);
         $item.addClass('full-screen');
@@ -31,16 +31,13 @@
             interval: 6000,
             pause: "false"
         });
-    
-    // MixItUp Grid
-    $(function(){
-      $('.gallery').mixitup({
-        easing: 'snap',
-        resizeContainer: true
-      });
-		});
-    
-    // client tab init
+
+        $('.eventCarousel').carousel({
+            interval: 10000,
+            pause: "false"
+        });
+
+        // client tab init
     $(document).off('click.tab.data-api');
     $('a.tab').hover(function () { $(this).tab('show'); });
     

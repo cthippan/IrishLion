@@ -1,4 +1,4 @@
-formformhtml, body {
+html, body {
   font-family: "Palatino Linotype", "Book Antiqua", "Palatino", "serif";
   height: 100%;
   background-color: black;
@@ -90,19 +90,18 @@ span:hover + div {
 ul { margin: 0; padding: 0; }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  font-family: "Baskerville", "Palatino Linotype", "Book Antiqua", "Palatino", "serif";
+  color: #fff;
 }
 
 h1 {
-  display: inline-block;
+  display: flex;
   margin: 0 0 30px 0;
-  font-size: 30px;
+  font-size: 50px;
   padding-bottom: 5px;
+  color: #ffffcc;
+  justify-content: center;
 }
-
-  h1:hover {
-    border-color: #72a329;
-  }
 
 h3 {
   color: rgba(255,255,255, .7);
@@ -291,7 +290,7 @@ textarea.form-control:focus {
     margin: 20px 5px;
     color: #ffffcc;
     height: 4ß0px;
-    line-height: 30px;
+    line-height: 45px;
 
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
@@ -348,10 +347,10 @@ textarea.form-control:focus {
   /* White Section */
   .section.white {
     background: none;
-    background-color: #ffffcc;
+    background-color: #000000;
   }
     .section.white h1 {
-      color: #4D1D12;
+      color: #ffffcc;
     }
     .section.white a.btn {
       color: #777;
@@ -536,6 +535,7 @@ textarea.form-control:focus {
     #services .service-icon span {
       display: block;
       margin-top: 20px;
+      text-transform: uppercase;
     }
 
 @media (max-width: 420px) {
@@ -648,12 +648,11 @@ textarea.form-control:focus {
       line-height: 0;
     }
   }
-/*  CLIENTS and TESTIMONIALS
- *    stylings for testimonials
+/*  connect section
  *
  *
  */
-#clients {
+#connect {
  color: #444;
  min-height: 0;
  height: auto;
@@ -662,10 +661,10 @@ textarea.form-control:focus {
  overflow: hidden;
  background-color: #000;
 }
-  #clients h1 {
+  #connect h1 {
     margin-bottom: 50px;
   }
-  #clients .background {
+  #connect .background {
     position: absolute;
     left: 0;
     right: 0;
@@ -676,15 +675,14 @@ textarea.form-control:focus {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=.4)";
     filter: alpha(opacity=.4);
     opacity: .4;
-    -webkit-filter: grayscale(100%);
 
-    background: url("../img/paper.jpg") fixed no-repeat;
+    background: url("http://static.wixstatic.com/media/bfd8b1_7f019c831bc9469e9c174ae99efab67d.jpg_srz_4588_2403_85_22_0.50_1.20_0.00_jpg_srz") fixed no-repeat;
     background-size: cover;
   }
-  #clients .row {
+  #connect .row {
     text-align: center;
   }
-    #clients .row .logo img {
+    #connect .row .logo img {
       display: inline-block;
       height: 50px;
       margin-bottom: 40px;
@@ -695,15 +693,15 @@ textarea.form-control:focus {
     	-webkit-transition: .4s;
       transition: .4s;
     }
-    #clients .row .logo img:hover {
+    #connect .row .logo img:hover {
       -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
     	filter: alpha(opacity=1);
     	opacity: 1;
     }
-    #clients .tab-content {
+    #connect .tab-content {
       margin-top: 15px;
     }
-      #clients .tab-pane {
+      #connect .tab-pane {
         color: rgba(255,255,255,.7);
         font-size: 14px;
         line-height: 24px;
@@ -711,107 +709,12 @@ textarea.form-control:focus {
 
 
 @media (max-width: 768px) {
-  #clients img.logo { width: 50%; }
+  #connect img.logo { width: 50%; }
 }
 @media (max-width: 420px) {
-  #clients { background-attachment: scroll; }
+  #connect { background-attachment: scroll; }
 }
 
-
-/*  PRICING
- *    stylings for pricing tables
- *
- *
- */
-.pricing { }
-  .pricing span {
-    margin-right: 20px;
-  }
-
-  .pricing .wrapper {
-    padding: 20px;
-    background-color: #ccc;
-    -webkit-transition: .5s;
-    transition: .5s;
-  }
-
-    .pricing .wrapper:hover {
-      margin-top: -10px;
-      background-color: #003303;
-      box-shadow: 0 10px 0 0 #004d04;
-    }
-
-    .pricing .wrapper:hover h3 { color: #fff; }
-    .pricing .wrapper:hover span.price {
-       background-color: rgba(255,255,255,.8);
-       border-color: transparent;
-    }
-
-    .pricing .wrapper:hover td { color: #fff; }
-    .pricing .wrapper:hover a.btn { background-color: #666; color: #fff; }
-    .pricing .wrapper a.btn:hover { border-color: transparent; background-color: #888; }
-  .pricing h3, .pricing h2, .pricing .table td {
-    -webkit-transition: .25s;
-    transition: .25s;
-  }
-
-  .pricing h3 {
-    color: #555;
-    font-size: 28px;
-  }
-
-  .pricing span.price {
-    display: block;
-    color: #555;
-    width: 100px;
-    height: 100px;
-    line-height: 90px;
-
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-
-    border: 2px solid rgba(255,255,255,.8);
-    margin: 0 auto;
-  }
-
-    .pricing span.price i {
-      position: relative;
-      top: 4px;
-      margin-right: 10px;
-    }
-
-  .table {
-    margin-bottom: 0;
-  }
-    .table .btn {
-      margin-top: 15px;
-    }
-    .table caption {
-      margin: 20px 0;
-    }
-    .table thead tr th {
-      font-weight: normal;
-      color: #8bc534;
-      display: block;
-      font-size: 30px;
-      line-height: 40px;
-      text-align: center;
-      margin-bottom: 10px;
-      border: 0;
-    }
-    .pricing .table td {
-      border: 0;
-      padding: 15px 0;
-      text-align: center;
-    }
-
-@media (max-width: 768px) {
-  .pricing .wrapper:hover {
-    margin-top: 0;
-    box-shadow: none;
-  }
-}
 
 /*  OUR STORY
  *    stylings for about us section/social media icons
@@ -934,7 +837,8 @@ textarea.form-control:focus {
       }
       .timeline .timeline-heading h4 {
         margin-top: 0;
-        color: inherit;
+        color: #fff;
+        font-size: 40px;
       }
       .timeline .timeline-heading h4.subheading {
         text-transform: none;
@@ -1053,7 +957,7 @@ textarea.form-control:focus {
   color: #eee;
   overflow: hidden;
   position: relative;
-  background-color: #4D1D12;
+  background-color: #000000;
   z-index: 1;
 }
   .footer h3 {
