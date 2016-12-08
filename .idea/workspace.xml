@@ -2,45 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d58d0a2-296f-4645-adb4-536d9c97f56e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/theGlen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/upperLevel.jpg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/assets/css/bootstrap-responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/assets/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/assets/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/assets/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/assets/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/assets/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/assets/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/assets/img/glyphicons/glyphicons_009_magic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/assets/img/glyphicons/glyphicons_042_group.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/assets/img/glyphicons/glyphicons_079_podium.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/assets/img/glyphicons/glyphicons_082_roundabout.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/assets/img/glyphicons/glyphicons_155_show_thumbnails.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/assets/img/glyphicons/glyphicons_163_iphone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/assets/img/glyphicons/glyphicons_214_resize_small.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/assets/img/glyphicons/glyphicons_266_book_open.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/assets/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/assets/js/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/assets/js/bootstrap-alert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/assets/js/bootstrap-button.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/assets/js/bootstrap-collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/assets/js/bootstrap-dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/assets/js/bootstrap-modal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/assets/js/bootstrap-popover.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/assets/js/bootstrap-scrollspy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/assets/js/bootstrap-tab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/assets/js/bootstrap-tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/assets/js/bootstrap-transition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/assets/js/google-code-prettify/prettify.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/assets/js/google-code-prettify/prettify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/assets/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/assets/js/scripts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/celticroom.jpg" afterPath="$PROJECT_DIR$/img/celticroom.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/historic.jpeg" afterPath="$PROJECT_DIR$/img/historic.jpeg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="$PROJECT_DIR$/css/bootstrap.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -68,12 +30,14 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="1029" column="59" selection-start-line="1029" selection-start-column="59" selection-end-line="1029" selection-end-column="59" />
+            <state relative-caret-position="248">
+              <caret line="642" column="26" selection-start-line="642" selection-start-column="20" selection-end-line="642" selection-end-column="26" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#35219#35226#0" expanded="true" />
-                <element signature="e#44594#44599#0" expanded="true" />
+                <element signature="e#37486#37493#0" expanded="true" />
+                <element signature="e#46882#46887#0" expanded="true" />
+                <element signature="e#56305#56310#0" expanded="true" />
+                <element signature="e#57068#57074#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,10 +56,24 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10065">
-              <caret line="671" column="12" selection-start-line="671" selection-start-column="12" selection-end-line="671" selection-end-column="12" />
+            <state relative-caret-position="225">
+              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="celticRoom.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/celticRoom.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="celticroomfront.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/celticroomfront.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -118,20 +96,6 @@
                 <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menuLion.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/menuLion.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="newowner.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/newowner.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -179,7 +143,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="962" />
+    <option name="height" value="967" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -207,7 +171,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -236,44 +199,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IrishLion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IrishLion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IrishLion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IrishLion" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/irish_lion_final.patch" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v7.0.0/bin/node" />
@@ -358,7 +294,8 @@
       <workItem from="1480903339985" duration="8797000" />
       <workItem from="1480991374045" duration="339000" />
       <workItem from="1481060810146" duration="1567000" />
-      <workItem from="1481154165972" duration="905000" />
+      <workItem from="1481154165972" duration="1106000" />
+      <workItem from="1481200490847" duration="807000" />
     </task>
     <task id="LOCAL-00001" summary="changes colors of event section and button margin">
       <created>1480952196233</created>
@@ -381,20 +318,27 @@
       <option name="project" value="LOCAL" />
       <updated>1480991649802</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adds photos">
+      <created>1481155275847</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1481155275848</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14164000" />
+    <option name="totallyTimeSpent" value="15172000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="962" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="967" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24954791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16636528" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33175355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33215547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -424,7 +368,8 @@
     <MESSAGE value="changes colors of event section and button margin" />
     <MESSAGE value="changes color and block text on timeline" />
     <MESSAGE value="adds space between text blocks in connect, adds text box to events carousel" />
-    <option name="LAST_COMMIT_MESSAGE" value="adds space between text blocks in connect, adds text box to events carousel" />
+    <MESSAGE value="adds photos" />
+    <option name="LAST_COMMIT_MESSAGE" value="adds photos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -452,8 +397,10 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#35219#35226#0" expanded="true" />
-            <element signature="e#44594#44599#0" expanded="true" />
+            <element signature="e#37486#37493#0" expanded="true" />
+            <element signature="e#46882#46887#0" expanded="true" />
+            <element signature="e#56305#56310#0" expanded="true" />
+            <element signature="e#57068#57074#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -517,8 +464,10 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#35219#35226#0" expanded="true" />
-            <element signature="e#44594#44599#0" expanded="true" />
+            <element signature="e#37486#37493#0" expanded="true" />
+            <element signature="e#46882#46887#0" expanded="true" />
+            <element signature="e#56305#56310#0" expanded="true" />
+            <element signature="e#57068#57074#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -582,8 +531,10 @@
           <caret line="127" column="24" selection-start-line="127" selection-start-column="24" selection-end-line="127" selection-end-column="24" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#35219#35226#0" expanded="true" />
-            <element signature="e#44594#44599#0" expanded="true" />
+            <element signature="e#37486#37493#0" expanded="true" />
+            <element signature="e#46882#46887#0" expanded="true" />
+            <element signature="e#56305#56310#0" expanded="true" />
+            <element signature="e#57068#57074#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -606,17 +557,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/celticRoom.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/blarneyPuffballs.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/celticroomfront.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -697,14 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10065">
-          <caret line="671" column="12" selection-start-line="671" selection-start-column="12" selection-end-line="671" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/oldfront.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -715,14 +648,34 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/celticRoom.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/celticroomfront.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="1029" column="59" selection-start-line="1029" selection-start-column="59" selection-end-line="1029" selection-end-column="59" />
+        <state relative-caret-position="248">
+          <caret line="642" column="26" selection-start-line="642" selection-start-column="20" selection-end-line="642" selection-end-column="26" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#35219#35226#0" expanded="true" />
-            <element signature="e#44594#44599#0" expanded="true" />
+            <element signature="e#37486#37493#0" expanded="true" />
+            <element signature="e#46882#46887#0" expanded="true" />
+            <element signature="e#56305#56310#0" expanded="true" />
+            <element signature="e#57068#57074#0" expanded="true" />
           </folding>
         </state>
       </provider>
