@@ -520,18 +520,18 @@ textarea.form-control:focus {
 
   #services .service-icon {
     text-align: center;
-    color: #fff;
+    color: #ffffcc;
   }
 
     
     #services .service-icon i:hover  {
-      background-color: #d7ba84;
-      color: #1e1d1d;
+      background-color: none;
+      color: #ffffcc;
     }
 
     #services .service-icon i {
       margin: 0 auto;
-      color: rgba(255,255,255,.7);
+      color: #fff;
       display: inline-block;
       font-size: 40px;
       display: block;
@@ -539,7 +539,7 @@ textarea.form-control:focus {
       width: 100px;
       padding-top: 25px;
 
-      border: 4px solid #ffffff;
+      border: 4px solid #ffffcc;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       border-radius: 50%;
@@ -626,7 +626,7 @@ textarea.form-control:focus {
     .gallery span.cover {
       position: absolute;
       top: -100%;
-      background-color: #f4d432;
+      background-color: #ffffcc;
     }
       .gallery span.cover span {
         color: #fff;
@@ -669,7 +669,7 @@ textarea.form-control:focus {
  *
  */
 #connect {
- color: #444;
+ color: #fff;
  min-height: 0;
  height: auto;
  padding-bottom: 100px;
@@ -763,7 +763,6 @@ textarea.form-control:focus {
       }
       .social-media a:hover {
         color: #fff;
-        border-color: #fff;
       }
 
       .timeline {
@@ -820,7 +819,7 @@ textarea.form-control:focus {
         height: 80px;
         position: absolute;
         z-index: 100;
-        background-color: #fed136;
+        background-color: #ffffcc;
         color: white;
         border-radius: 100%;
         border: 7px solid #f1f1f1;
@@ -936,32 +935,6 @@ textarea.form-control:focus {
       }
 
 
-/*  CONTACT
- *    stylings for contact
- *    Basic form styles at the beginning of css file
- *
- */
-
-.contact {
-
-}
-  .contact h3 {
-    margin-top: 0;
-  }
-  .contact p {
-    color: #666;
-  }
-  .contact span.glyphicon {
-    color: #444;
-    margin-right: 10px;
-  }
-  .contact .btn {
-    width: 100%;
-  }
-
-
-
-
 /*  FOOTER
  *    stylings for footer
  *
@@ -989,7 +962,7 @@ textarea.form-control:focus {
     margin-bottom: 5px;
   }
   .footer li a { color: #fff; }
-  .footer li a:hover { color: #ffde36; }
+  .footer li a:hover { color: #ffffcc; }
 
   .footer p {
     line-height: 25px;
@@ -1003,7 +976,7 @@ textarea.form-control:focus {
     }
 
   .footer hr {
-    border-color: #999;
+    border-color: #fff;
     margin: 0 auto;
   }
 
