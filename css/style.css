@@ -75,7 +75,7 @@ html, body {
 .tab-content {
     width: 660px;
     padding: 20px;
-    display: none;
+    /*display: none;*/
 }
 
 #tab-1 {
@@ -142,17 +142,15 @@ hr {
 }
 
 a:hover {
-<<<<<<< HEAD
+
  color: #fad163;
   text-decoration: none;
-=======
-    color: #003303;
-    text-decoration: none;
+
 }
 
 .italic {
     font-style: italic;
->>>>>>> 0227acd14bfd81202e7ce12a80bfb0bc3e59ad2b
+
 }
 
 /* tooltip styles */
