@@ -6,25 +6,38 @@
  
 (function($){
 	$(function(){
-	
-	  // Fixed header animates in after scrolling past welcome
-	  $('#navbar').affix({
-        offset: {
-          top: function () {
-              return (this.top = $('.section.welcome').height() - 70)
-            }
-        }
-      });
-    
-    // MixItUp Grid
-    $(function(){
-      $('.gallery').mixitup({
-        easing: 'snap',
-        resizeContainer: true
-      });
-		});
-    
-    // client tab init
+        var $item = $('.carousel .item');
+        var $wHeight = $(window).height() *.8;
+        $item.eq(0).addClass('active');
+        $item.height($wHeight);
+        $item.addClass('full-screen');
+
+        $('.carousel img').each(function() {
+            var $src = $(this).attr('src');
+            var $color = $(this).attr('data-color');
+            $(this).parent().css({
+                'background-image' : 'url(' + $src + ')',
+                'background-color' : $color
+            });
+            $(this).remove();
+        });
+
+        $(window).on('resize', function (){
+            $wHeight = $(window).height();
+            $item.height($wHeight);
+        });
+
+        $('.carousel').carousel({
+            interval: 6000,
+            pause: "false"
+        });
+
+        $('.eventCarousel').carousel({
+            interval: 10000,
+            pause: "false"
+        });
+
+        // client tab init
     $(document).off('click.tab.data-api');
     $('a.tab').hover(function () { $(this).tab('show'); });
     
